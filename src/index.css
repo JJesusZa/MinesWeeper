@@ -1,0 +1,49 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+.limpiar {
+  clear: both;
+  content: "";
+}
+
+.juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info {
+  min-height: 50px;
+}
+
+.cell {
+  background: #ffff;
+  border: 1px solid #414c69;
+  float: left;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  cursor: pointer;
+}
+
+.cell:focus {
+  outline: none;
+}
+
+.oculta {
+  background: #7e7b92;
+}
+
+.es-bandera,
+.es-mina {
+  color: #fc543c;
+}
